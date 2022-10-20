@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer text-center" >
+  <footer class="footer text-center">
     <Logo />
     <span>Copyright &copy; 2022 d'Orellia</span>
     <nuxt-link to="/">Privacy Policy</nuxt-link>
