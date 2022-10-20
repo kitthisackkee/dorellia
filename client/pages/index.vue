@@ -2,7 +2,7 @@
   <div>
     <div class="row">
       <div class="col-12">
-        <h1>Wellcome to d'Orellia</h1>
+        <PageTitle Page_title="Starters"/>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -23,8 +23,10 @@
 </template>
 
 <script>
+import PageTitle from '~/components/PageTitle.vue'
 export default {
   layout: 'homepage',
   name: 'staters',
+  components: { PageTitle },
 }
 </script>
