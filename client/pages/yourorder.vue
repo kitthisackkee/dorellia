@@ -12,6 +12,6 @@
 <script>
 export default {
   layout: 'homepage',
-  name: 'your order',
+  name: 'yourorder',
 }
 </script>
